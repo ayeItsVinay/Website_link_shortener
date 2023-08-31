@@ -1,0 +1,87 @@
+header{
+    height: 60px;
+    text-align: center;
+}
+
+main{
+    height: 900px;
+    text-align: center;
+    background: #0087de ;
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+    font-family: Roboto;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    height: 38px;
+    padding-top: 30px;
+}
+
+.logo{
+    width: 120px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+#input{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Roboto;
+    letter-spacing: 0.2px;
+    border-radius: 3.2px;
+    border: solid 2px #1f233e;
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: inherit;
+    color: #ffffff;
+    height: 35px;
+    width: 280px;
+}
+#shorten{
+    margin-top: 30px;
+    background-color: inherit;
+    color: #ffffff;
+    height: 35px;
+    width: 110px;
+    padding: 5px;
+    border-radius: 3.2px;
+    border: solid 2px #1f233e;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#shorten:hover{
+    color: #0087de;
+    background-color: #1f233e;
+    border: solid 2px black;
+    cursor: pointer;
+}
+#shorten:hover:active{
+    background-color: #ffffff;
+    color: #1f233e;
+    border-radius: solid 2px black;
+    cursor: pointer;
+}
+#responseField{
+    min-width: 191px;
+    min-height: 120px;
+    background-color: #1f233e;
+    margin-top: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Roboto;
+    overflow: auto;
+    letter-spacing: 0.2px;
+    border: solid 2px #ffffff;
+}
